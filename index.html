@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="conainter">
+        <div id="instructions">
+            <h1 id="heading">Hit roll to begin, or restart to play again</h1>
+            <br>
+            <h2 id="rules">Score 20 or more to win<br>However, if you roll a '1' you lose</h2>
+        </div>
+        <div id="dice">
+            <h2>Your Score: </h2>
+            <p id="score">0</p>
+            <p id="rolled"> </p>
+            <p id="winLose"> </p>
+        </div>    
+        <div id="pics">
+            <img id="diceFace" src="/Dice/dice-1.png" alt="Dice Face" class="shake">
+        </div>
+        <div class="buttons">
+            <button id="roll">ROLL DICE</button>
+            <button id="restart"> PLAY / RESTART </button>
+        </div>
+    </div>
+
+    <script src="scirpt.js"></script>
+</body> 
+</html>
